@@ -74,8 +74,33 @@
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
-  max-width: 800px;
   margin-top: 3rem;
+}
+
+.button {
+  align-items: center;
+  background: #0070f3;
+  border-radius: 10px;
+  color: #ffffff;
+  cursor: pointer;
+  display: flex;
+  font-size: 16px;
+  font-weight: 500;
+  height: 56px;
+  justify-content: center;
+  margin-top: 20px;
+  width: 100%;
+}
+
+.input {
+  background: #fff;
+  border: 1px solid #eaeaea;
+  border-radius: 8px;
+  color: #222;
+  font-size: 16px;
+  height: 56px;
+  padding: 0px 16px;
+  width: 100%;
 }
 
 .card {
@@ -87,7 +112,7 @@
   border: 1px solid #eaeaea;
   border-radius: 10px;
   transition: color 0.15s ease, border-color 0.15s ease;
-  width: 85%;
+  width: 100%;
   cursor: pointer;
 }
 
@@ -114,7 +139,7 @@
   margin-left: 0.5rem;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 1700px) {
   .grid {
     width: 100%;
     flex-direction: column;
