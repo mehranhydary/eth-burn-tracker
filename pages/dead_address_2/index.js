@@ -1,14 +1,14 @@
 import styles from '../../styles/Home.module.css'
 
-const ZeroAddress = () => {
+const DeadAddress2 = () => {
   return (
     <div className={styles.container}>
       <main className={styles.main}>
-        <h1>Zero Address</h1>
-        <h3>0x0000000000000000000000000000000000000000</h3>
+        <h1>Dead Address</h1>
+        <h3>0x000000000000000000000000000000000000dead</h3>
       </main>
     </div>
   )
 }
 
-export default ZeroAddress
+export default DeadAddress2

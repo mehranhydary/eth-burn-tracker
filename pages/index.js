@@ -21,16 +21,16 @@ export default function Home() {
           this website will track things being burned in the ethereum world
         </p>
 
-        <div onClick={() => router.push('/zero_address')} className={styles.grid}>
-          <div className={styles.card}>
+        <div className={styles.grid}>
+          <div onClick={() => router.push('/zero_address')} className={styles.card}>
             <h2>Zero address</h2>
             <p>0x0000000000000000000000000000000000000000</p>
           </div>
-          <div className={styles.card}>
+          <div onClick={() => router.push('/dead_address_1')} className={styles.card}>
             <h2>Dead address</h2>
             <p>0xdeaddeaddeaddeaddeaddeaddeaddeaddeaddead</p>
           </div>
-          <div className={styles.card}>
+          <div onClick={() => router.push('/dead_address_2')} className={styles.card}>
             <h2>Dead address</h2>
             <p>0x000000000000000000000000000000000000dead</p>
           </div>
